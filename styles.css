@@ -1,16 +1,15 @@
 /* styles.css */
 :root {
-    --primary: #a8394f;
-    --secondary: #4a4a4a;
-    --accent: #b8859a;
-    --background: #fce4ec;
-    --text-dark: #2d2d2d;
-    --text-light: #666666;
-    --white: #ffffff;
-    --shadow: rgba(168, 57, 79, 0.1);
+    --primary: #2d6a61;      /* Deep seafoam/teal for prominent text & buttons */
+    --secondary: #2f3e46;    /* Dark slate for secondary text & footer background */
+    --accent: #64a6bd;       /* Soft pale blue for highlights and greetings */
+    --background: #f0f7f4;   /* Very pale mint/blue-green for the overall background */
+    --text-dark: #1c2d27;    /* Deep forest-slate for highly legible body text */
+    --text-light: #526b62;   /* Muted sage gray for subtitles and descriptions */
+    --white: #ffffff;        /* Pure white for sections and cards */
+    --shadow: rgba(45, 106, 97, 0.08); /* Tinted shadow matching the new primary teal */
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 * {
     margin: 0;
     padding: 0;
